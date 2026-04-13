@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Inline Example</title>
+</head>
+<body style="text-align:center; font-family:Arial; background-color:#f0f0f0;">
+
+  <h1 style="color:blue;">Hello World</h1>
+
+  <p id="text" style="color:gray;">Click the button to change this text.</p>
+
+  <button 
+    style="padding:10px 20px; font-size:16px; cursor:pointer;"
+    onclick="document.getElementById('text').innerHTML='Text Changed!'; 
+             document.getElementById('text').style.color='green';">
+    Click Me
+  </button>
+
+</body>
+</html>
